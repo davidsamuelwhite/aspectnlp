@@ -14,12 +14,12 @@ from fasttext import load_model
 # Project code
 import mydatasets as mydatasets
 # DNN configurations
-from aspectnlp.aspectnlp.config.config_custom import configuration as tbsa_config
-from aspectnlp.aspectnlp.config.config_customAS import configuration as absa_config
+from aspectnlp.config.config_custom import configuration as tbsa_config
+from aspectnlp.config.config_customAS import configuration as absa_config
 # word-to-vector functions
-from aspectnlp.aspectnlp.w2v import *
-from aspectnlp.aspectnlp.models import CNN_Gate_Aspect_Text
-from aspectnlp.aspectnlp.utils import load_pretrained_embedding
+from aspectnlp.w2v import *
+from aspectnlp.models import CNN_Gate_Aspect_Text
+from aspectnlp.utils import load_pretrained_embedding
 
 
 class AspectSentimentScorer():
