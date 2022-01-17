@@ -16,7 +16,7 @@ from nltk import pos_tag
 import nltk
 nltk.download('stopwords')
 from rake_nltk import Rake
-from aspectnlp.utils import load_pretrained_embedding
+from aspectnlp.aspectnlp.utils import load_pretrained_embedding
 
 warnings.filterwarnings("ignore")
 
